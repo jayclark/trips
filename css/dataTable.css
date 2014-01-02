@@ -1,0 +1,147 @@
+
+/* =====  Dynamic tables  ===== */
+
+.paging_two_button .ui-button { float: left; cursor: pointer; * cursor: hand; }
+.paging_full_numbers .ui-button { padding: 4px 7px; margin: 0; cursor: pointer; * cursor: hand; }
+.dataTables_paginate .ui-button { margin-right: -0.1em !important; }
+.dataTables_paginate .first { margin-top: 0; }
+.dataTables_wrapper .ui-toolbar { padding: 5px; }
+
+.dataTables_paginate { width: auto; }
+.dataTables_info { padding: 16px 12px; color: #bbb; float: left; }
+
+table.display thead th { padding: 3px 0px 4px 10px; cursor: pointer; * cursor: hand; font-size: 11px; border-top: 1px solid #24272b; border-bottom: 1px solid #24272b;
+	background: #3a3f42;
+	background: -moz-linear-gradient(top,  #4e5659 0%, #3a3f42 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4e5659), color-stop(100%,#3a3f42));
+	background: -webkit-linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	background: -o-linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	background: -ms-linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	background: linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e5659', endColorstr='#3a3f42',GradientType=0 );
+}
+
+.datatable-footer {  
+	background: #3a3f42;
+	background: -moz-linear-gradient(top,  #4e5659 0%, #3a3f42 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4e5659), color-stop(100%,#3a3f42));
+	background: -webkit-linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	background: -o-linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	background: -ms-linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	background: linear-gradient(top,  #4e5659 0%,#3a3f42 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e5659', endColorstr='#3a3f42',GradientType=0 );
+}
+
+div.dataTables_wrapper .ui-widget-header { font-weight: normal; border-top: 1px solid #3B4144; margin-top: -1px; height: 28px; border-right: none; 
+	background: #414649;
+	background: -moz-linear-gradient(top, #4e5659 0%, #414649 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4e5659), color-stop(100%, #414649));
+	background: -webkit-linear-gradient(top, #4e5659 0%, #414649 100%);
+	background: -o-linear-gradient(top, #4e5659 0%, #414649 100%);
+	background: -ms-linear-gradient(top, #4e5659 0%, #414649 100%);
+	background: linear-gradient(top, #4e5659 0%, #414649 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e5659', endColorstr='#414649',GradientType=0 );
+
+	box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset;
+}
+
+
+table.display thead th div.DataTables_sort_wrapper { position: relative; padding-right: 20px; color: #bbb; }
+table.display thead th div.DataTables_sort_wrapper span { position: absolute; top: 50%; margin-top: -8px; right: 5px; }
+
+
+/* ===== Datatable styles ===== */
+
+.dataTables_wrapper { position: relative; _height: 302px; clear: both; }
+.dataTables_processing { position: absolute; top: 0px; left: 50%; width: 250px; margin-left: -125px; border: 1px solid #ddd; text-align: center; color: #999; font-size: 11px; padding: 2px 0; }
+.dataTables_length { float: right; padding: 12px 10px; display: block; }
+.itemsPerPage { display: block; float: left; margin-right: 10px; }
+.dataTables_length label { padding-top: 10px; }
+.dataTables_length select { font-size: 11px; margin: 0 5px; }
+.dataTables_filter { padding: 14px 12px; position: relative; display: block; float: left; }
+.dataTables_filter input[type="text"] { padding: 5px; background: #25292B; border: 1px solid #1E2226; width: 200px; position: relative; margin-left: 12px; color: #d5d5d5; }
+.dataTables_filter .srch { position: absolute; right: 6px; top: 7px; background: url(../images/searchSmall.png) no-repeat 0 0; border: none; width: 9px; height: 9px; }
+.dataTables_paginate { float: right; margin: 15px 14px; }
+
+.dataTables_length > label > span { float: left; margin-top: 4px; margin-right: 6px; }
+.dataTables_length .selector { margin-left: 10px; line-height: 26px; height: 26px; }
+.dataTables_length .selector > span { height: 26px; line-height: 26px; padding-top: 0; }
+.dataTables_length .selector select {  height: 26px; }
+
+.datatable-header { background: #303335; }
+.datatable-header:after, .datatable-footer:after { content: ""; display: block; clear: both; }
+
+
+
+/* Pagination nested */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next { height: 19px; width: 19px; margin-left: 3px; float: left; }
+.paginate_disabled_previous { background-image: url(../images/back_disabled.jpg); }
+.paginate_enabled_previous { background-image: url(../images/back_enabled.jpg); }
+.paginate_disabled_next { background-image: url(../images/forward_disabled.jpg); }
+.paginate_enabled_next { background-image: url(../images/forward_enabled.jpg); }
+
+
+/* DataTables display */
+table.display { margin: 0 auto; width: 100%; clear: both; border-collapse: collapse; }
+table.display tfoot th { padding: 3px 0px 3px 10px; font-weight: bold; font-weight: normal; }
+table.display tr.heading2 td { border-bottom: 1px solid #aaa; }
+table.display td { padding: 8px 10px; }
+table.display td.center { text-align: center; }
+
+
+/* DataTables sorting */
+.sorting_asc { background: url(../images/sort_asc.png) no-repeat center right; }
+.sorting_desc { background: url(../images/sort_desc.png) no-repeat center right; }
+.sorting { background: url(../images/sort_both.png) no-repeat center right; }
+.sorting_asc_disabled { background: url(../images/sort_asc_disabled.png) no-repeat center right; }
+.sorting_desc_disabled { background: url(../images/sort_desc_disabled.png) no-repeat center right; }
+
+
+/* DataTables row classes*/
+table.display tr.odd.gradeA { background-color: #ddffdd; }
+table.display tr.even.gradeA { background-color: #eeffee; }
+table.display tr { border-bottom: 1px solid #3B4144; }
+table.display td { border-left: 1px solid #3B4144; }
+table.display td:first-child { border-left: none; }
+table.display tr.odd.gradeA { background: url(../images/widgetBg.png) repeat; }
+table.display tr.even.gradeA { background: url(../images/darkerBg.png) repeat; }
+table.display tr.odd.gradeC { background: url(../images/darkBg.png) repeat; }
+table.display tr.even.gradeC { background: url(../images/darkerBg.png) repeat; }
+table.display tr.odd.gradeX { background: url(../images/darkBg.png) repeat; }
+table.display tr.even.gradeX { background: url(../images/darkerBg.png) repeat; }
+table.display tr.odd.gradeU { background: url(../images/darkBg.png) repeat; }
+table.display tr.even.gradeU { background: url(../images/darkerBg.png) repeat; }
+
+tr.odd { background-color: #E2E4FF; }
+tr.even { background-color: white; }
+
+
+/* Misc */
+.dataTables_scroll { clear: both; }
+.top, .bottom { padding: 15px; background-color: #F5F5F5; border: 1px solid #CCCCCC; }
+.top .dataTables_info { float: none; }
+.clear { clear: both; }
+.dataTables_empty { text-align: center; }
+
+tfoot input { margin: 0.5em 0; width: 100%; color: #444; }
+tfoot input.search_init { color: #999; }
+
+td.group { background-color: #d1cfd0; border-bottom: 2px solid #A19B9E; border-top: 2px solid #A19B9E; }
+td.details { background-color: #d1cfd0; border: 2px solid #A19B9E; }
+
+.example_alt_pagination div.dataTables_info { width: 40%; }
+.paging_full_numbers span.paginate_button, .paging_full_numbers span.paginate_active { border: 1px solid #aaa; -webkit-border-radius: 5px; -moz-border-radius: 5px; padding: 2px 5px; margin: 0 3px; cursor: pointer; *cursor: hand; }
+.paging_full_numbers span.paginate_button { background-color: #ddd; }
+.paging_full_numbers span.paginate_button:hover { background-color: #ccc; }
+.paging_full_numbers span.paginate_active { background-color: #99B3FF; }
+
+table.display tr.even.row_selected td { background-color: #B0BED9; }
+table.display tr.odd.row_selected td { background-color: #9FAFD1; }
+
+
+
+/* Row highlighting example */
+.ex_highlight #example tbody tr.even:hover, #example tbody tr.even td.highlighted { background-color: #ECFFB3; }
+.ex_highlight #example tbody tr.odd:hover, #example tbody tr.odd td.highlighted { background-color: #E6FF99; }

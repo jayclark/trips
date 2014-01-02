@@ -1,0 +1,76 @@
+
+html {
+	background: #707070;
+	margin:0 0 0 -1px;
+	padding:0;	
+	overflow-Y: scroll;
+}
+
+
+body {
+	padding:0;
+	margin :0;
+	display:table; 
+	width:100%;	
+	color:#000;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+}
+
+p {
+	letter-spacing: normal;
+	line-height: 1.7em;
+}
+
+a:link, a:visited {
+	color:#adcb00;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#ffb508;
+	text-decoration:underline;
+}
+	
+#page_wrapper {
+	margin:0 auto;
+	height:60px;
+	padding:0;
+	background:#000 no-repeat scroll center top;
+}
+
+a img {
+	border:none;
+} 
+
+#log {
+	background: #000;
+	color:#707070;
+	padding:10px 20px 20px 20px;
+	width: 1024px;
+	height:600px;
+	overflow-Y: auto;
+	margin:0 auto;
+    border:2px solid;
+    border-radius:25px;
+    -moz-border-radius:25px; 
+    box-shadow: 10px 10px 5px #212121;
+}
+
+.nano .content { 
+	padding: 20px;
+}
+
+.nano .pane {
+	background: #555;
+	width: 8px;
+	right: 1px;
+  margin: 5px;
+}
+
+.nano .slider {
+	background: #111;
+}
